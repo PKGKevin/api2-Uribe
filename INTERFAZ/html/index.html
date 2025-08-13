@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/styles.css">
+<title>Registro de Personaje</title>
+</head>
+<body>
+
+<section class="form">
+    <h1>Registrar Personaje</h1>
+
+    <form form id="registroPersonaje">
+    <input class="casilla" type="text" name="nombre" placeholder="Nombre del heroe" required>
+    <br>
+    <input class="casilla" type="number" name="cantidadVida" placeholder="Cantidad de Vida" required>
+    <br>
+    <input class="casilla" type="number" name="poderAtaque" placeholder="Poder de Ataque" required>
+    <br>
+    <input class="casilla" type="number" name="poderDefensa" placeholder="Poder de Defensa" required>
+    <br>
+    <input class="casilla" type="text" name="fotografia" placeholder="Fotografía" required>
+    <br>
+    
+<label>¿El Heroe vive?</label>
+<select class="casilla" name="vivo" required>
+    <option value="true">Sí</option>
+    <option value="false">No</option>
+</select>
+<br>
+
+<label>¿El Heroe está muerto?</label>
+<select class="casilla" name="muerto" required>
+    <option value="true">Sí</option>
+    <option value="false">No</option>
+</select>
+<br>
+
+<label>¿Es Heroe?</label>
+<select class="casilla" name="villano" required>
+    <option value="true">Sí</option>
+    <option value="false">No</option>
+</select>
+<br>
+
+<label>¿Es Villano?</label>
+<select class="casilla" name="heroe" required>
+    <option value="true">Sí</option>
+    <option value="false">No</option>
+    </select>
+<br>
+    <label>Fecha de Creación</label>
+    <input class="casilla" type="date" name="fechaCreacion" required>
+<br>
+    <button class="Registro" type="submit">Registrar Personaje</button>
+    </form>
+</section>
+<script  src="/html/form.js"></script>
+</body>
+
+</html>
